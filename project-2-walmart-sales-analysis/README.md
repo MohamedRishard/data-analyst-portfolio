@@ -1,22 +1,18 @@
 # Walmart Sales Analysis – Data Analyst Portfolio Project
 
 ## Project Overview
-This project analyzes Walmart sales data to uncover key insights about store performance, department sales, holiday impacts, and monthly sales trends. The analysis uses SQL for data aggregation, Python for initial exploration, and Power BI for visual reporting.
+This project analyzes Walmart sales data to uncover key insights about store performance, department sales, and monthly sales trends. The analysis uses SQL for data aggregation, and Power BI for visual reporting.
 
 ---
 
 ## Dataset
 - **Source:** Walmart Sales Forecasting Dataset  
-- **Files Used:** `train.csv`, `stores.csv`, `features.csv`  
-- **Columns of Interest:** 
-  - `Store`, `Dept`, `Date`, `Weekly_Sales`, `IsHoliday`
-  - `Temperature`, `Fuel_Price`, `CPI`, `Unemployment`
-  - `Store Type`, `Store Size`
-
+- **Files Used:** `train.csv`, `stores.csv`, `features.csv`
+  
 ---
 
 ## Tools Used
-- **SQL (MySQL)** – Data aggregation, calculating total sales, department ranking, holiday sales, and monthly trends.
+- **SQL (MySQL)** – Data aggregation, calculating total sales, department ranking, and monthly trends.
 - **Power BI** – Dashboard creation with interactive visualizations.
 
 ---
@@ -26,7 +22,7 @@ This project analyzes Walmart sales data to uncover key insights about store per
 2. **Top Stores by Sales:** Highlights the highest-grossing stores.
 3. **Department Sales Analysis:** Identifies top-performing departments in each store.
 4. **Monthly Sales Trends:** Reveals seasonal sales patterns across months.
-5. **Department Rank per Store:** Ranks each department within a store based on sales, with conditional formatting for easy visualization.
+5. **Department Rank per Store:** Ranks each department within a store based on sales.
 
 ---
 
@@ -40,7 +36,7 @@ The Power BI dashboard contains the following visuals:
 
 **Screenshot Example:**
 
-(screenshot.png)
+![Power BI Dashboard Screenshot](screenshot.png)
 
 ---
 
